@@ -1,0 +1,4 @@
+got:
+    resource: "@GotBundle/Resources/config/routing.yml"
+    prefix:   /
+

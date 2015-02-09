@@ -1,0 +1,10 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}I LOVE {% endblock %}
+
+{% block body %}
+    {# Commment for the time #}
+    {% for i in 1..10 %}
+        Hello {{ name|upper }} # {{ i }}!
+    {% endfor %}
+{% endblock %}
